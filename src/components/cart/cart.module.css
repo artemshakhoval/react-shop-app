@@ -1,0 +1,40 @@
+.cart {
+  max-width: 35rem;
+  background-color: #313131;
+  color: white;
+  max-height: 20rem;
+  overflow: scroll;
+}
+
+.cart h2 {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.actions {
+  text-align: right;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  color: #1ad1b9;
+  background-color: transparent;
+  border: 1px solid #1ad1b9;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #1ad1b9;
+  border-color: #1ad1b9;
+  color: white;
+}
